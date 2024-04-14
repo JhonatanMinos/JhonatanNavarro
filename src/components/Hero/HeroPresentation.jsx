@@ -8,7 +8,7 @@ const HeroPresentation = () => {
       <img
         src={imgJ}
         alt="Jhonatan"
-        className="w-52 h-52 rounded-full object-cover border-4 border-gray-800 dark:border-gray-200 mb-4 md:mr-4 md:mb-0"
+        className="w-52 h-52 bg-gray-800 dark:bg-transparent rounded-full object-cover border-4 border-gray-800 dark:border-gray-200 mb-4 md:mr-4 md:mb-0"
       />
       <div className="text-center md:text-left text-gray-800 dark:text-white">
         <h2 className="text-4xl font-bold">Jhonatan Navarro</h2>
