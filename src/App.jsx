@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="h-auto bg-white dark:bg-gray-800 flex justify-between">
-      <div className="container mx-auto w-1/2">
+      <div className="container mx-auto lg:w-1/2 sm:w-3/4 px-4">
         <div className="flex justify-end">
           <ButtonTheme theme={theme} onClick={handleThemeChange} />
         </div>

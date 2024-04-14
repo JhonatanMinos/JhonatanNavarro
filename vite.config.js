@@ -14,4 +14,5 @@ export default defineConfig({
       ],
     },
   },
+  base: 'https://jhonatanminos.github.io/JhonatanNavarro',
 })
