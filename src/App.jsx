@@ -25,7 +25,6 @@ function App() {
           <ButtonTheme theme={theme} onClick={handleThemeChange} />
         </div>
         <HeroPresentation />
-
         <div className="flex items-center  mt-8">
           <BsFillBriefcaseFill className="w-12 h-12 text-gray-800 dark:text-white" />
           <h2 className="text-3xl font-bold mb-0 ml-2 text-gray-800 dark:text-white">
@@ -41,8 +40,11 @@ function App() {
               About me
             </h2>
             <p className="text-gray-800 dark:text-white">
-              I am a full stack developer with 2 years of experience. I am
-              passionate about technology and I love to learn new things.
+              I’m a web developer with two years of experience in PHP, HTML,
+              CSS, and JavaScript, enhancing my skills in React.js and Laravel
+              over the past year. Committed to continuous learning, I aim to
+              contribute to innovative projects and thrive in environments that
+              value creativity and growth.
             </p>
           </div>
         </div>

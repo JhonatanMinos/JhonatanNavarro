@@ -16,12 +16,16 @@ const HeroPresentation = () => {
           I'm a full stack developer with 2 years of experience.
         </p>
         <div className="flex justify-center md:justify-start mt-4">
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full flex items-center">
+          <a
+            href="JhonatanNavarro/public/JhonatanNavarro.pdf"
+            download={"JhonatanNavarro.pdf"}
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full flex items-center"
+          >
             <span className="mr-2">
               <RiFileUserFill />
             </span>
             cv
-          </button>
+          </a>
           <a
             href="https://github.com/JhonatanMinos"
             target="_blank"
