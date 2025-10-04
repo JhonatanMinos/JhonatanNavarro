@@ -10,7 +10,7 @@ export const HeroPresentation = ({ theme, handleThemeChange }) => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 130) {
+      if (window.scrollY > 100) {
         setShowScroll(true);
       } else {
         setShowScroll(false);
@@ -25,7 +25,7 @@ export const HeroPresentation = ({ theme, handleThemeChange }) => {
     <div>
       <div>
         <div
-          className={`fixed top-0 left-0 w-full bg-gray-800 dark:bg-gray-900 text-white py-2 px-4 flex justify-between items-center transition-opacity duration-600 ease-in-out ${
+          className={`fixed top-0 left-0 z-50 w-full bg-gray-400 dark:bg-gray-900 text-white py-2 px-4 flex justify-between items-center transition-opacity duration-600 ease-in-out ${
             showScroll ? "opacity-100" : "opacity-0 pointer-events-none"
           }`}
         >
@@ -54,9 +54,11 @@ export const HeroPresentation = ({ theme, handleThemeChange }) => {
               className="w-52 h-52 bg-gray-800 dark:bg-transparent rounded-full object-cover border-4 border-gray-800 dark:border-gray-200 mb-4 md:mr-4 md:mb-0"
             />
             <div className="text-center md:text-left text-gray-800 dark:text-white">
-              <h2 className="text-4xl font-bold">Jhonatan Navarro</h2>
+              <h1 className="text-4xl font-bold">Jhonatan Navarro</h1>
               <p className="text-lg">
-                I'm a full stack developer with 2 years of experience.
+                I’m a Full Stack Developer with 3 years of experience building
+                scalable web applications using modern technologies like React,
+                Laravel, and SQL databases.
               </p>
               <div className="flex justify-center md:justify-start mt-4">
                 <a
