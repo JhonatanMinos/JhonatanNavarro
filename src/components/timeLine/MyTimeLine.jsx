@@ -87,7 +87,7 @@ export const MiTimeLine = () => {
             </li>
             <li>
               Developed three enterprise systems:
-              <ul className="list-disc space-y-2">
+              <ul className="list-disc pl-6 space-y-2">
                 <li>
                   <strong>Payments Application:</strong> Streamlined vendor
                   payment approvals and tracking.

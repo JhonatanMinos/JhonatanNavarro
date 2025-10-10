@@ -35,7 +35,7 @@ export const HeroPresentation = ({ theme, handleThemeChange }) => {
               alt="Jhonatan"
               className="w-10 h-10 bg-gray-800 dark:bg-transparent rounded-full object-cover border-2 border-gray-800 dark:border-gray-200"
             />
-            <span className="ml-2 text-lg font-bold">Jhonatan Minos</span>
+            <span className="ml-2 text-lg font-bold">Jhonatan Navarro</span>
           </div>
           <ButtonTheme theme={theme} onClick={handleThemeChange} />
         </div>

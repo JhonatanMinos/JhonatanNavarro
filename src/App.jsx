@@ -1,7 +1,8 @@
 import "./App.css";
 import { useEffect, useState } from "react";
-import { HeroPresentation } from "./components/Hero/HeroPresentation.jsx";
-import { MiTimeLine } from "./components/timeLine/MyTimeLine.jsx";
+import { HeroPresentation } from "./components/Hero/HeroPresentation";
+import { MiTimeLine } from "./components/timeLine/MyTimeLine";
+import { ProjectsSection } from "./components/Projects/projectsSection";
 import { BsFillBriefcaseFill } from "react-icons/bs";
 import InputEmail from "./components/Email/InputEmail.jsx";
 function App() {
@@ -30,7 +31,7 @@ function App() {
         <div className="mt-8">
           <MiTimeLine />
         </div>
-        <div className="mt-8">
+        <div className="flex items-center mt-8">
           <div>
             <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-2">
               My story as a developer
@@ -46,6 +47,7 @@ function App() {
             </p>
           </div>
         </div>
+        <ProjectsSection />
         <InputEmail />
       </div>
     </div>
